@@ -1,0 +1,43 @@
+GET http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/lk
+
+###
+POST http://localhost:3001/api/persons/ 
+content-type: application/json
+
+{
+    "name": "maeimar",
+    "number": "95123"
+}
+###
+PUT http://localhost:3001/api/persons/6615fca82dcab21ae542e98c
+content-type: application/json
+
+{
+    "name": "maeimar",
+    "number": 1122647161
+} 
+
+
+
+
+###
+DELETE http://localhost:3001/api/persons/6615fca82dcab21ae542e98c
+
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
